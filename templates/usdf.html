@@ -1,0 +1,20 @@
+{% load userfilter %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>userdefined</title>
+</head>
+<body>
+    <center>
+        <h1 style="color: rgb(0, 238, 255);">user defined filters</h1>
+        <h2 style="color: rgb(204, 36, 120);">{{data}}</h2>
+        <h2 style="color: rgb(255, 0, 238);">{{data|swap}}</h2>
+        <h2 style="color: rgb(15, 101, 175);">{{data|remove:'a'}}</h2>
+        <h2 style="color: rgb(185, 185, 37);">{{data|change}}</h2>
+        <h2 style="color: rgb(33, 139, 33);">{{data|count:'r'}}</h2>
+        
+    </center>
+</body>
+</html>
